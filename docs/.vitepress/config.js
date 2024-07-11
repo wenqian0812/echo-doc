@@ -1,7 +1,7 @@
 export default {
   title: "Echo",
   description: "echo的程序笔记",
-  base: '/echo-doc/',
+  base: '/',
   themeConfig: {
     nav: [
       {
