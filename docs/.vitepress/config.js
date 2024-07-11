@@ -145,7 +145,7 @@ export default {
         {
           text: 'todb',
           items: [
-            {text: 'install', link: '/database/tidb/README'}
+            {text: 'install', link: '/database/tidb/readme'}
           ]
         }
       ]

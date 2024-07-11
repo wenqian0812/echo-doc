@@ -1,7 +1,7 @@
-## 离线安装tidb7.5.1
+# 离线安装tidb7.5.1
 
 
-### 下载TiDB离线组件包
+## 下载TiDB离线组件包
 
 ```
 wget https://download.pingcap.org/tidb-community-server-v7.5.1-linux-amd64.tar.gz
@@ -9,7 +9,7 @@ wget https://download.pingcap.org/tidb-community-server-v7.5.1-linux-amd64.tar.g
 wget https://download.pingcap.org/tidb-community-toolkit-v7.5.1-linux-amd64.tar.gz
 ```
 
-### 安装TiUP
+## 安装TiUP
 
 将离线包发送到目标集群的中控机后，执行以下命令安装 TiUP 组件：
 
@@ -37,7 +37,7 @@ sh local_install.sh
 
 若需将镜像切换到其他目录，可以通过手动执行 `tiup mirror set <mirror-dir>` 进行切换。如果需要切换到在线环境，可执行`tiup mirror set https://tiup-mirrors.pingcap.com`
 
-### 合并离线包
+## 合并离线包
 如果是通过官方下载页面下载的离线软件包，需要将 TiDB-community-server 软件包和 TiDB-community-toolkit 软件包合并到离线镜像中。执行以下命令合并离线组件到 server 目录下。
 
 1.  解压组件包 
@@ -53,7 +53,7 @@ ls -ld tidb-community-server-v7.5.1-linux-amd64 tidb-community-toolkit-v7.5.1-li
 
 cp -rp keys ~/.tiup/
 ```
-### 合并镜像包
+## 合并镜像包
 
 ```
 tiup mirror merge ../tidb-community-toolkit-v7.5.1-linux-amd64
@@ -77,18 +77,20 @@ TiDB 环境与系统配置检查 | PingCAP 文档中心
 6 生成集群初始化配置文件模板 
 执行如下命令，生成集群初始化配置文件：
 
-# 生成在执行命令的目录下 
+## 生成在执行命令的目录下 
  ```
  tiup cluster template > topology.yaml
  ```
-7 执行部署命令
 
-1 检查就能存在的潜在风险
+## 执行部署命令
+
+1. 检查就能存在的潜在风险
 
 ```
 tiup cluster check tidb.yaml
 ```
-2 手动修复风险
+
+2. 手动修复风险
 检测出来的风险都可以通过官方文档找到解决方案
 
 例如 报错
@@ -108,7 +110,7 @@ EOF
 
 当检查没有fail时，
 
-3 部署 TiDB 集群
+## 部署 TiDB 集群
 
 ```
 tiup cluster deploy tidb-test v7.5.1  tidb.yaml
@@ -123,14 +125,14 @@ v7.5.1 为部署的集群版本，可以通过执行 tiup list tidb 来查看 Ti
 [-i] 及 [-p] 为可选项，如果已经配置免密登录目标机，则不需填写。否则选择其一即可，[-i] 为可登录到目标机的 root 用户（或 --user 指定的其他用户）的私钥，也可使用 [-p] 交互式输入该用户的密码。
 预期日志结尾输出 Deployed cluster `tidb-test` successfully 关键词，表示部署成功。
 
-8 查看TIUP管理的集群情况
+## 查看TIUP管理的集群情况
 TiUP 支持管理多个 TiDB 集群，该命令会输出当前通过 TiUP cluster 管理的所有集群信息，包括集群名称、部署用户、版本、密钥信息等。
 
 ```
 tiup cluster list
 ```
 
-9 检查部署的 TiDB 集群情况
+## 检查部署的 TiDB 集群情况
 预期输出包括 tidb-test 集群中实例 ID、角色、主机、监听端口和状态（由于还未启动，所以状态为 Down/inactive）、目录信息。
 
 ```
@@ -138,13 +140,13 @@ tiup cluster list
 ```
 
 
-10 启动集群
+## 启动集群
 
 ```
 tiup cluster start tidb-test
 ```
 
-停止
+## 停止
 
 ```
  tiup cluster stop tidb-test
