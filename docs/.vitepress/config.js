@@ -22,6 +22,7 @@ export default {
       {text: "git", link: "/git/readme"},
       {text: "other", link: "/other/readme"},
       {text: "elasticsearch", link: "/elasticsearch/readme"},
+      {text: "database", link: "/database/README"},
     ],
     sidebar: {
       web: [
@@ -137,7 +138,14 @@ export default {
         },
         {
           text: 'kibana',
+          items: []
+        }
+      ],
+      database: [
+        {
+          text: 'todb',
           items: [
+            {text: 'install', link: '/database/tidb/README'}
           ]
         }
       ]
