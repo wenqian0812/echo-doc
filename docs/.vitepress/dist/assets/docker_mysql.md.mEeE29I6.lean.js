@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as e}from"./chunks/framework.mlmjWbz3.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docker/mysql.md","filePath":"docker/mysql.md"}'),n={name:"docker/mysql.md"},l=e("",25),t=[l];function p(h,k,r,d,o,c){return a(),i("div",null,t)}const y=s(n,[["render",p]]);export{g as __pageData,y as default};

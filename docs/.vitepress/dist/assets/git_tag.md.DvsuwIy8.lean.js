@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as i,a2 as t}from"./chunks/framework.mlmjWbz3.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"git/tag.md","filePath":"git/tag.md"}'),e={name:"git/tag.md"},l=t("",18),p=[l];function n(h,g,o,d,c,k){return i(),a("div",null,p)}const v=s(e,[["render",n]]);export{u as __pageData,v as default};

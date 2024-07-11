@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as t}from"./chunks/framework.mlmjWbz3.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"git/branch.md","filePath":"git/branch.md"}'),e={name:"git/branch.md"},l=t("",13),h=[l];function n(p,c,o,d,k,r){return a(),i("div",null,h)}const b=s(e,[["render",n]]);export{u as __pageData,b as default};

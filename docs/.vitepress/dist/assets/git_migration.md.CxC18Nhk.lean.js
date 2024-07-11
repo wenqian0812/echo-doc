@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as t}from"./chunks/framework.mlmjWbz3.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"git/migration.md","filePath":"git/migration.md"}'),n={name:"git/migration.md"},l=t("",6),e=[l];function h(p,k,g,r,d,o){return a(),i("div",null,e)}const y=s(n,[["render",h]]);export{c as __pageData,y as default};

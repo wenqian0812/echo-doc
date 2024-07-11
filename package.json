@@ -1,0 +1,17 @@
+{
+  "name": "doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitee.com/debby-echo/echo-doc.git",
+  "author": "wenqian <843462167@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host 0.0.0.0",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
+  }
+}

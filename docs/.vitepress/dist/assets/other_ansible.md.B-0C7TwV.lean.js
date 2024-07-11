@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as e,a2 as t}from"./chunks/framework.mlmjWbz3.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"other/ansible.md","filePath":"other/ansible.md"}'),i={name:"other/ansible.md"},l=t("",4),n=[l];function p(o,h,c,r,d,_){return e(),a("div",null,n)}const g=s(i,[["render",p]]);export{u as __pageData,g as default};
