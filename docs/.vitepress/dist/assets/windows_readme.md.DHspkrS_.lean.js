@@ -1,1 +1,0 @@
-import{_ as e,c as a,o,a2 as t}from"./chunks/framework.mlmjWbz3.js";const w=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"windows/readme.md","filePath":"windows/readme.md"}'),d={name:"windows/readme.md"},r=t("",3),s=[r];function n(c,i,_,l,h,m){return o(),a("div",null,s)}const u=e(d,[["render",n]]);export{w as __pageData,u as default};

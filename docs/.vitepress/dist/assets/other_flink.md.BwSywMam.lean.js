@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.mlmjWbz3.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"other/flink.md","filePath":"other/flink.md"}'),l={name:"other/flink.md"},p=n("",2),h=[p];function k(t,e,E,r,d,o){return a(),i("div",null,h)}const y=s(l,[["render",k]]);export{c as __pageData,y as default};

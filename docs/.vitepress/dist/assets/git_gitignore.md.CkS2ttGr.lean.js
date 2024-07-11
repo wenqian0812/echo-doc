@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.mlmjWbz3.js";const F=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"git/gitignore.md","filePath":"git/gitignore.md"}'),t={name:"git/gitignore.md"},e=n("",12),l=[e];function p(h,r,g,k,d,c){return a(),i("div",null,l)}const y=s(t,[["render",p]]);export{F as __pageData,y as default};

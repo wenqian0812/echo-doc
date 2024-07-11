@@ -1,1 +1,0 @@
-import{_ as e,c as s,o as a,a2 as i}from"./chunks/framework.mlmjWbz3.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docker/redis.md","filePath":"docker/redis.md"}'),t={name:"docker/redis.md"},r=i("",2),d=[r];function o(n,c,l,h,p,_){return a(),s("div",null,d)}const u=e(t,[["render",o]]);export{m as __pageData,u as default};

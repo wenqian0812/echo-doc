@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.mlmjWbz3.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docker/gitlab.md","filePath":"docker/gitlab.md"}'),t={name:"docker/gitlab.md"},l=n("",2),h=[l];function p(k,e,F,r,d,C){return a(),i("div",null,h)}const o=s(t,[["render",p]]);export{c as __pageData,o as default};

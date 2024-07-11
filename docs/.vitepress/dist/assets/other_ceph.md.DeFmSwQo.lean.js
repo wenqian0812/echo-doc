@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as e,a2 as p}from"./chunks/framework.mlmjWbz3.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"other/ceph.md","filePath":"other/ceph.md"}'),n={name:"other/ceph.md"},i=p("",76),t=[i];function l(c,h,o,d,r,g){return e(),a("div",null,t)}const b=s(n,[["render",l]]);export{u as __pageData,b as default};

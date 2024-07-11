@@ -1,7 +1,7 @@
 export default {
   title: "Echo",
   description: "echo的程序笔记",
-  base: '/',
+  base: '/echo-doc/',
   themeConfig: {
     nav: [
       {
@@ -22,7 +22,7 @@ export default {
       {text: "git", link: "/git/readme"},
       {text: "other", link: "/other/readme"},
       {text: "elasticsearch", link: "/elasticsearch/readme"},
-      {text: "database", link: "/database/README"},
+      {text: "database", link: "/database/readme"},
     ],
     sidebar: {
       web: [
